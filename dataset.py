@@ -5,8 +5,8 @@ import os
 import time
 import json
 from streamlit import session_state 
-os.environ['http_proxy'] = 'http://127.0.0.1:7890'
-os.environ["https_proxy"] = "http://127.0.0.1:7890"
+#os.environ['http_proxy'] = 'http://127.0.0.1:7890'
+#os.environ["https_proxy"] = "http://127.0.0.1:7890"
 #streamlit run dataset.py --server.port 2323
 st.set_page_config(
     page_title='问答数据集生成器',
